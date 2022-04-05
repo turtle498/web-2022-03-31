@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+
+}
+.text-white {
+    color:#fff !important;
+}
+#header{
+    height: 46px;
+    background-color: rgb(43, 43, 46);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#logo img {
+    width: 2%;
+    height: 1%;
+    float: left;
+    border-radius: 30%;
+    padding:7px 4px;   
+    
+}
+.search{
+    float: right;
+    margin-top:11px;
+    margin-right: 60px;
+
+}
+.search1{
+    float: right;
+    margin-right: -210px;
+    margin-top:11px;
+}
+#nav {
+    display: inline-block;  
+
+}
+
+
+
+#nav li {
+    display:inline-block;
+    position:relative;
+    
+   
+
+}
+#nav li a {
+    color:white;
+    text-decoration: none;
+    line-height: 46px;
+    padding:0 20px ;
+    display:inline-block;
+   
+  
+
+}
+
+#nav li:hover  a{
+    color:rgb(32, 32, 32);
+    background-color: rgb(241, 239, 236);
+}
+#nav .subnav li {
+    display: block;
+    border-bottom: 1px solid #423f42;
+    
+}
+
+#nav .subnav  {
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     position:absolute;
+     background-color: rgb(255, 255, 255);
+     display:none;
+     padding-top:1px;
+     min-width:125.94PX;
+     
+     
+}
+#nav li:hover  .subnav {
+    display: block;
+
+}
+#nav .subnav > li > a {
+    color: rgb(27, 26, 26);
+    display:block;
+    font-size: 16px;
+    
+ 
+}
+#nav .subnav > li:hover>  a{
+    background-color: rgb(255, 251, 0);
+    color: rgb(10, 10, 10);
+}  
+
+
+
+#slider {
+   position: relative;
+   margin-top: 46px;
+   padding-top: 50%;
+   background: url(./img/Mad\ Max\ The\ Nux\ Car.png) center / cover no-repeat ;
+  
+   
+
+}
+#slider .text-content {
+   position:absolute;
+   bottom: 48px;
+   color: white;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+
+ }
+.text-heading{
+   font-weight: 500;
+   font-size: 28px;
+
+ }
+ .text-description{
+   margin-top: 25px;
+
+ }
+#content{
+
+}
+#content .content-section {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 60px 0px;
+}
+#content .section-heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+#content .sub-section-hearding{
+    margin-bottom:20px;
+    font-size: 15px;
+    font-weight: 300px;
+    font-style:italic;
+    opacity: 0.7;            
+}
+#content .about-text{
+    justify-content: center;
+    line-height: 1.4;
+}
+#content .mercedes-benz {
+    margin-top: 48px;
+    overflow: hidden;
+    display: inline-block;
+}
+#content .mercedes-name {
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+#content .mercedes-item {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#content .mercedes-item img{
+    border-radius: 20%;
+    width: 260px;
+    height: 350px;
+    
+    padding-right: 5px;
+}
+/* phần mercedes 2 */
+.mercedes2 {
+    background-color: rgb(104, 94, 94);
+    opacity: 98%;
+}
+.mercedes2 .content-section .stikets-list {
+    background-color: #fff;
+    
+
+   
+}
+.stikets-list li{
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    padding: 4px 16px;
+    list-style: none;
+ 
+    
+
+}
+.stikets-list .sold-out{
+ background-color: #f44336;
+ color: #ddd;
+ padding: 3px 4px;
+ margin-left: 16px;
+ border-radius: 15%;
+
+}
+.stikets-list .quantity {
+    float: right;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+
+}
+.row{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-half {
+    width: 33.33333%;
+}
+.col-2 {
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+.places-list{
+ 
+   overflow: hidden;
+   margin-top: 10px ;
+   margin-bottom: -30px;
+}
+.place-img{
+    width: 100%;
+    display:block;
+
+    
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+     background-color: #fff;
+     padding: 16px;
+     font-size: 15px;
+     text-align: left;
+     
+}
+.place-heading{
+    font-weight: 800;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.place-time{
+    padding-bottom: 10px;
+
+}
+.place-decs{
+
+}
+.place-buy-btn{
+    background-color: #423f42;
+    color: yellow;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 20%;
+    font-weight: 800;
+    
+
+}
+.place-buy-btn:hover{
+    color:#000;
+    background-color: yellow;
+    border: 1px solid #000;
+    
+ 
+}
+/* contact */
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.mt{
+    margin-top: 16px;
+    float: left;
+}
+.contact-content{
+    padding: 10px;
+  
+    
+}
+.contact-content1{
+    margin-top: -10px;
+}
+.contact-info{
+    line-height:1.5;
+    float: left;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+.contact-info i [class*="ti-"]{
+    display:inline-block;
+    padding-top: 100px;
+    width: 50%;
+}
+.form-control{
+    height: 30px;
+    float: left;
+    margin-top: 7px; 
+    width: 50%;
+    padding: 10px;
+}
+/* end contact */
+/* begin map */
+.map-section{
+   
+   height: 500px;
+
+}
+.map-section img{
+    width: 100%;
+    height: 100%;
+}
+/* footer */
+#footer{
+    padding: 40px 16px;
+    text-align: center;
+}
+#footer .social-list{
+    font-size: 34px;
+    margin: 5px 10px;
+    text-align: center;
+    
+}
+#footer .social-list a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    
+}
+#footer .social-list a:hover{
+    color: blue;
+}
+.copy{
+    font-size: 30px;
+}
+
+
+   /* mẫu khi nhấn vào nut buy */
+.modal{
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background:rgba(18, 15, 15, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal.open{
+    display: flex;
+}
+
+.modal-container {
+    width: 900px;
+    background: #fff;
+    min-height: 200px;
+    position: relative;
+    animation: modalin ease .6s;
+}
+.modal-header{
+    background: #009688;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+.modal-close{
+    position:absolute;
+    right: 0px;
+    padding: 10px ;
+    cursor: pointer;
+    opacity: 0.8;
+    color: #fff;
+    background: #f44336;
+    border-radius: 50%;
+    margin: 5px;
+}
+.modal-close:hover{
+    color: #f44336;
+    background-color: #ddd;
+    opacity: 1;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+.modal-label{
+    display: block;
+    font-size: 16px;
+    padding: 14px 152px;
+    float: left;
+    margin-left: -122px;
+}
+
+.modal-input {
+    border: 1px solid #000;
+    width: 95%;
+    height: 30px;
+    border-radius: 7px;
+    padding: 18px;
+}
+.modal-help a {
+    text-decoration: none;
+   
+}
+#purchase {
+   
+    width:15%;
+    color:rgb(228, 226, 220);
+    border-radius: 15%;
+    border:1px solid #423f42;
+    height: 50px;
+    background: goldenrod;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+#purchase:hover{
+    background: green;
+    color: #fff;
+}
+@keyframes modalin {
+    from { transform: translateY(-140px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
