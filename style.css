@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-#main{
-
-}
 .text-white {
     color:#fff !important;
 }
@@ -127,9 +124,6 @@
    margin-top: 25px;
 
  }
-#content{
-
-}
 #content .content-section {
     width: 1100px;
     margin-left: auto;
@@ -265,9 +259,6 @@
 }
 .place-time{
     padding-bottom: 10px;
-
-}
-.place-decs{
 
 }
 .place-buy-btn{
@@ -427,21 +418,28 @@
     height: 30px;
     border-radius: 7px;
     padding: 18px;
+    margin-left: 20px;
 }
 .modal-help a {
     text-decoration: none;
    
 }
+.modal-help{
+    text-align: right;
+    margin: 5px 5px;
+
+
+
+}
 #purchase {
    
     width:15%;
-    color:rgb(228, 226, 220);
+    color:rgb(25, 25, 24);
     border-radius: 15%;
     border:1px solid #423f42;
     height: 50px;
-    background: goldenrod;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    background: rgb(51, 227, 16);
+    margin: 5px 400px 5px;
     
 }
 #purchase:hover{
